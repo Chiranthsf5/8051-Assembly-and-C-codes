@@ -1,0 +1,11 @@
+  # adressing modes 
+1.immediate addressing --> Mov R0,#0f3H
+2.register addressing -->  Mov A,R0  || Mov Rn,A
+3.direct adressing    ---> Mov A,30H
+4.indirect adressing  ---->Mov A,@R0  (R0||R1)
+5.index addressing    ----> Movc A,@A+DPTR      c-->code memeory
+
+#8051 Instructions
+1.data transfer   ---> Mov , Movx , Movc || XCH ,XCHD ||Push and pop
+2.Logical      ------> cpl,clr,ANL,ORL,XRL,RLC,swap A    (biwise operations)
+3.
